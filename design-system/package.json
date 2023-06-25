@@ -1,0 +1,25 @@
+{
+  "name": "design-system",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/design-system.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --declaration && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@microsoft/fast-components": "^2.30.6",
+    "@microsoft/fast-element": "^1.12.0",
+    "@microsoft/fast-foundation": "^2.49.0"
+  },
+  "files": [
+    "dist/**/*",
+    "types/**/*"
+  ]
+}

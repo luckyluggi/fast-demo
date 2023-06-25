@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.styles.ts, ${capture}.template.ts",
+  },
+  "files.exclude": {
+    "**/*.css.map": true,
+    "**/*.min.css": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+  },
+}

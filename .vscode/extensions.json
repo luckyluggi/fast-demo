@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "kingoftac.fast-snippets",
+        "bashmish.es6-string-css",
+        "webreflection.literally-html",
+        "ms-fast.fast-tagged-templates",
+        "Vue.volar",
+        "Vue.vscode-typescript-vue-plugin"
+    ]
+}
